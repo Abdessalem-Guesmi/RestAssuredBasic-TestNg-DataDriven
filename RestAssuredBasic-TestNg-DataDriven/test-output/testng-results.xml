@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3647" started-at="2020-11-08T16:15:00 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+    <groups>
+      <group name="E2E">
+        <method signature="TestApiUsers.testAddUser(java.lang.String, java.lang.String, int, java.lang.reflect.Method)[pri:2, instance:apiTest.TestApiUsers@3cef309d]" name="testAddUser" class="apiTest.TestApiUsers"/>
+        <method signature="TestApiUsers.testDeleteUser(int, java.lang.reflect.Method)[pri:5, instance:apiTest.TestApiUsers@3cef309d]" name="testDeleteUser" class="apiTest.TestApiUsers"/>
+        <method signature="TestApiUsers.testGetUsers(java.lang.reflect.Method)[pri:1, instance:apiTest.TestApiUsers@3cef309d]" name="testGetUsers" class="apiTest.TestApiUsers"/>
+        <method signature="TestApiUsers.testPatchUser(java.lang.reflect.Method)[pri:4, instance:apiTest.TestApiUsers@3cef309d]" name="testPatchUser" class="apiTest.TestApiUsers"/>
+        <method signature="TestApiUsers.testPutUser(java.lang.reflect.Method)[pri:3, instance:apiTest.TestApiUsers@3cef309d]" name="testPutUser" class="apiTest.TestApiUsers"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test name="Default test" duration-ms="3647" started-at="2020-11-08T16:15:00 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+      <class name="apiTest.TestApiUsers">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="beforeMethod" is-config="true" duration-ms="7" started-at="2020-11-08T16:15:00 GMT+01:00" finished-at="2020-11-08T16:15:00 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testGetUsers(java.lang.reflect.Method)[pri:1, instance:apiTest.TestApiUsers@3cef309d]" name="testGetUsers" duration-ms="2800" started-at="2020-11-08T16:15:00 GMT+01:00" finished-at="2020-11-08T16:15:02 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTest.TestApiUsers.testGetUsers(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsers -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-08T16:15:02 GMT+01:00" finished-at="2020-11-08T16:15:02 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-11-08T16:15:02 GMT+01:00" finished-at="2020-11-08T16:15:02 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAddUser(java.lang.String, java.lang.String, int, java.lang.reflect.Method)[pri:2, instance:apiTest.TestApiUsers@3cef309d]" name="testAddUser" duration-ms="54" started-at="2020-11-08T16:15:02 GMT+01:00" data-provider="DataForPost" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abdessalem]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Guesmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void apiTest.TestApiUsers.testAddUser(java.lang.String,java.lang.String,int,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAddUser(java.lang.String, java.lang.String, int, java.lang.reflect.Method)[pri:2, instance:apiTest.TestApiUsers@3cef309d]" name="testAddUser" duration-ms="37" started-at="2020-11-08T16:15:03 GMT+01:00" data-provider="DataForPost" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ali]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[public void apiTest.TestApiUsers.testAddUser(java.lang.String,java.lang.String,int,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="testPutUser(java.lang.reflect.Method)[pri:3, instance:apiTest.TestApiUsers@3cef309d]" name="testPutUser" duration-ms="47" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTest.TestApiUsers.testPutUser(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.net.SocketException">
+            <message>
+              <![CDATA[Connection reset]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.net.SocketException: Connection reset
+at java.net.SocketInputStream.read(Unknown Source)
+at java.net.SocketInputStream.read(Unknown Source)
+at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:158)
+at org.apache.http.impl.io.SocketInputBuffer.fillBuffer(SocketInputBuffer.java:82)
+at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:271)
+at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:281)
+at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:257)
+at org.apache.http.impl.conn.ManagedClientConnectionImpl.receiveResponseHeader(ManagedClientConnectionImpl.java:207)
+at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:684)
+at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:486)
+at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
+at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:495)
+at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:452)
+at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1451)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1200)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+at io.restassured.filter.Filter$filter.call(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+at io.restassured.filter.FilterContext$next.call(Unknown Source)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1661)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.RequestSpecificationImpl.patch(RequestSpecificationImpl.groovy:191)
+at io.restassured.internal.RequestSpecificationImpl.patch(RequestSpecificationImpl.groovy)
+at apiTest.TestApiUsers.testPutUser(TestApiUsers.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.net.SocketException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testPatchUser(java.lang.reflect.Method)[pri:4, instance:apiTest.TestApiUsers@3cef309d]" name="testPatchUser" duration-ms="538" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void apiTest.TestApiUsers.testPatchUser(java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchUser -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteUser(int, java.lang.reflect.Method)[pri:5, instance:apiTest.TestApiUsers@3cef309d]" name="testDeleteUser" duration-ms="40" started-at="2020-11-08T16:15:03 GMT+01:00" data-provider="DataForDelete" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void apiTest.TestApiUsers.testDeleteUser(int,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDeleteUser(int, java.lang.reflect.Method)[pri:5, instance:apiTest.TestApiUsers@3cef309d]" name="testDeleteUser" duration-ms="38" started-at="2020-11-08T16:15:03 GMT+01:00" data-provider="DataForDelete" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void apiTest.TestApiUsers.testDeleteUser(int,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:apiTest.TestApiUsers@3cef309d]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-11-08T16:15:03 GMT+01:00" finished-at="2020-11-08T16:15:03 GMT+01:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- apiTest.TestApiUsers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

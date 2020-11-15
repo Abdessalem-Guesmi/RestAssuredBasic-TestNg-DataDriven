@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fname": "Mohamadov",
+      "lname": "Barkov",
+      "departmentId": 1
+    },
+    {
+      "id": 2,
+      "fname": "Ahmadov",
+      "lname": "Hamdov",
+      "departmentId": 2
+    },
+    {
+      "id": 3,
+      "fname": "Markov",
+      "lname": "Bochkov",
+      "departmentId": 1
+    },
+   
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "QA"
+    },
+    {
+      "id": 2,
+      "name": "Dev"
+    }
+  ]
+}
